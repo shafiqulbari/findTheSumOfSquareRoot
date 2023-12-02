@@ -27,7 +27,7 @@ var output = "";
 for (var i = 1; i <= n; i++){
     sum += i*i;
     output += (i*i).toString();
-    console.log (output);
+    // console.log (output);
     if (i==n){
         continue
     }
